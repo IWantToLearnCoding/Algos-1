@@ -6,7 +6,7 @@
 class Events {
 	// Register an event handler
 	constructor() {
-		this.events = [];
+		this.events = {};
 	}
 	on(eventName, callback) {
 		if (!this.events[eventName]) {
